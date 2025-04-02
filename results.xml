@@ -1,0 +1,47 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="10.430565">
+<testsuite name="login.spec.js" timestamp="2025-04-02T09:30:59.739Z" hostname="chromium" tests="2" failures="1" skipped="0" time="13.58" errors="0">
+<testcase name="login" classname="login.spec.js" time="4.929">
+</testcase>
+<testcase name="select" classname="login.spec.js" time="8.651">
+<failure message="login.spec.js:9:5 select" type="FAILURE">
+<![CDATA[  [chromium] › login.spec.js:9:5 › select ──────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(locator).toHaveTitle(expected)
+
+    Locator: locator(':root')
+    Expected string: "India's No. 1 Online Bus Ticket Booking Site"
+    Received string: "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus"
+    Call log:
+      - expect.toHaveTitle with timeout 5000ms
+      - waiting for locator(':root')
+        8 × locator resolved to <html lang="en">…</html>
+          - unexpected value "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus"
+
+
+       9 | test('select',async({page})=>{
+      10 |     await page.goto('https://www.redbus.in/')
+    > 11 |     await expect(page).toHaveTitle("India's No. 1 Online Bus Ticket Booking Site");
+         |                        ^
+      12 |     
+      13 | })
+        at /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:11:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/login-select-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/login-select-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/login-select-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|test-results/login-select-chromium/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

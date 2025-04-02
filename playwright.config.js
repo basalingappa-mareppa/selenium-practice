@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 import { on } from 'events';
+import { json } from 'stream/consumers';
 
 /**
  * Read environment variables from file.
@@ -24,7 +25,13 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [
+  ['list'],
+  ['html'],
+  ['junit',{ outputFile: 'results.xml'}],
+  ['json',{ outputFile: 'results.json'}],
+  ['allure-playwright',{outputFolder:'my-allure-reoprt'}]
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */

@@ -1,0 +1,288 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: select
+- Location: /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:9:5
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toHaveTitle(expected)
+
+Locator: locator(':root')
+Expected string: "India's No. 1 Online Bus Ticket Booking Site"
+Received string: "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus"
+Call log:
+  - expect.toHaveTitle with timeout 5000ms
+  - waiting for locator(':root')
+    8 × locator resolved to <html lang="en">…</html>
+      - unexpected value "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus"
+
+    at /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:11:24
+```
+
+# Page snapshot
+
+```yaml
+- img "redBus"
+- list:
+  - listitem:
+    - img "Online Bus Tickets Booking"
+    - text: Bus Tickets
+  - listitem:
+    - img "Online Train Tickets Booking"
+    - text: ₹60 off Train Tickets
+- list:
+  - listitem:  Help
+  - listitem:  English 
+  - listitem:  Account 
+- main:
+  - img "image"
+  - heading "India's No. 1 Online Bus Ticket Booking Site" [level=1]
+  - button " From":
+    - text: 
+    - textbox "From"
+    - text: From
+  - text: 
+  - button " To":
+    - text: 
+    - textbox "To"
+    - text: To
+  - button " Date"
+  - button "SEARCH BUSES"
+  - heading "TRENDING OFFERS" [level=2]
+  - link "View All"
+  - img "image"
+  - text: BUS Save up to Rs 250 on bus tickets Valid till 30 Apr FIRST
+  - img "copy"
+  - img "image"
+  - text: BUS Save up to Rs. 300 in AP, Telangana routes Valid till 30 Apr SUPERHIT
+  - img "copy"
+  - img "image"
+  - text: BUS Save up to Rs 300 on Chartered Bus Valid till 30 Apr CHARTERED15
+  - img "copy"
+  - img "image"
+  - text: BUS Save 25% up to Rs 100 on SBSTC bus tickets. Valid till 30 Apr SBNEW
+  - img "copy"
+  - img "image"
+  - text: BUS Save up to Rs. 50 on IntrCity SmartBus operator Valid till 30 Apr INTRCITY
+  - img "copy"
+  - img "image"
+  - text: BUS Save up to Rs 50 on bus tickets Valid till 30 Apr YOLORED
+  - img "copy"
+  - img "image"
+  - text: BUS Save 10% Discount on bus tickets Valid till 30 Apr SRS10
+  - img "copy"
+  - img "image"
+  - text: BUS Save 10% Discount on bus tickets Valid till 30 Apr RKTBUS
+  - img "copy"
+  - img "image"
+  - text: BUS Save 10% Discount on bus tickets Valid till 01 May DREAMLINE10
+  - img "copy"
+  - text: Government Buses
+  - link "View All"
+  - img "rtcLogo"
+  - text: APSRTC  3.85 ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ 1539 services including Garuda, Garuda Plus and more
+  - img "redBus"
+  - text: Official booking partner of APSRTC Use code APSRTCNEW to save upto ₹250 (only for first time users) Get 25% concession for senior citizen passengers 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book APSRTC tickets online
+  - img "rtcLogo"
+  - text: TGSRTC  3.71 తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ 1450 services including Garuda Plus, Rajdhani and more
+  - img "redBus"
+  - text: Official booking partner of TGSRTC Use code FIRST to save upto ₹250 (only for first-time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book TGSRTC tickets online
+  - img "rtcLogo"
+  - text: KERALA RTC  3.85 കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ 940 services including Swift, AC Multiaxle and more
+  - img "redBus"
+  - text: Official booking partner of KSRTC Use code FIRST to save upto ₹250 (only for first time users) Rs. 30 discount on group booking of 4 seats 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book KSRTC KERALA tickets online
+  - img "rtcLogo"
+  - text: SBSTC  3.95 দক্ষিণবঙ্গ রাষ্ট্রীয় পরিবহণ সংস্থা 480 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of SBSTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book SBSTC tickets online
+  - img "rtcLogo"
+  - text: WBSTC  3.98 পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম 20 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of WBSTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book WBSTC tickets online
+  - img "rtcLogo"
+  - text: BSRTC  3.91 बिहार राज्य रोड ट्रान्सपोर्ट कॉर्पोरेशन 220 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of BSRTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book BSRTC tickets online
+  - img "rtcLogo"
+  - text: HRTC  3.98 हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन 480 services including Himgaurav, Himmani and more
+  - img "redBus"
+  - text: Official booking partner of HRTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book HRTC tickets online
+  - img "rtcLogo"
+  - text: RSRTC  3.71 राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन 6000 services including Deluxe, Ordinary and more
+  - img "redBus"
+  - text: Official booking partner of RSRTC Use code FIRST to save upto ₹250 (only for first time users) 30% concession for female passengers 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book RSRTC tickets online
+  - img "rtcLogo"
+  - text: PEPSU  3.83 ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ 100 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of PEPSU Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book PEPSU tickets online
+  - img "rtcLogo"
+  - text: ASTC  4.02 অসম ৰাজ্যিক পৰিবহন নিগম் 200 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of ASTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book ASTC tickets online
+  - img "rtcLogo"
+  - text: WBTC  3.96 পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম 120 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of WBTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book WBTC tickets online
+  - img "rtcLogo"
+  - text: KTCL  3.83 कदंब येरादारी म्हामंडळ 60 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of KTCL Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book KTCL tickets online
+  - img "rtcLogo"
+  - text: NBSTC  3.93 উত্তরবঙ্গ রাজ্য পরিবহন কর্পোরেশন 30 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of NBSTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book NBSTC tickets online
+  - img "rtcLogo"
+  - text: KAAC Transport  3.71 কাৰ্বি আংলং স্বায়ত্ত শাসিত পৰিষদ পৰিবহণ 10 services including AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of KAAC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book KAAC tickets online
+  - img "rtcLogo"
+  - text: UPSRTC  3.94 उत्तर प्रदेश राज्य सड़क परिवहन निगम 1738 services including Janrath,Shatabdi and more
+  - img "redBus"
+  - text: Official booking partner of UPSRTC 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book UPSRTC tickets online
+  - img "rtcLogo"
+  - text: CTU RTC  3.85 चंडीगढ़ परिवहन उपक्रम 143 services including AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of CTU Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book CTURTC tickets online
+  - img "rtcLogo"
+  - text: JKSRTC  3.85 जम्मू और कश्मीर सड़क परिवहन निगम। 16 services including Volvo Bus, AC & Non AC Bus and more
+  - img "redBus"
+  - text: Official booking partner of JKSRTC Use code FIRST to save upto ₹250 (only for first time users) 24*7 customer service (Call or chat) Get instant refund with UPI payments redBus is the most trusted place to book JKSRTC tickets online 
+  - heading "NOW, GET MORE THAN JUST BUS TICKETS WITH REDBUS!" [level=2]
+  - img "Online Train Tickets Booking"
+  - text: Train Tickets Book IRCTC Train Tickets on redRail simple & superfast booking process with no service fee + no payment gateway charge.
+  - img "Authorised IRCTC Partner"
+  - text: Authorised IRCTC Partner
+  - img "Instant refunds on UPI payments"
+  - text: Instant refunds on UPI payments
+  - img "Hassle- free customer support"
+  - text: Hassle- free customer support
+  - link "Book Train Tickets "
+  - img "aboutUsBg"
+  - img "Online Train Tickets Booking"
+  - heading "ENJOY THE APP!" [level=2]
+  - img "tick"
+  - text: Quick access
+  - img "tick"
+  - text: Superior live tracking 4.5  50M+ downloads Play Store 4.6  50M+ downloads App Store Scan to download
+  - img "QrCodeImg"
+  - text: Download the App on
+  - img "playstore"
+  - img "AppStoreImg"
+  - img "primoImg"
+  - text:  On time Punctual arrivals on 95% trips  Friendly Staff Always ready to help  Top Rated Buses with 4+ star rating
+  - heading "Global Presence" [level=2]
+  - img "redBus Colombia"
+  - text: Colombia
+  - img "redBus India"
+  - text: India
+  - img "redBus Indonesia"
+  - text: Indonesia
+  - img "redBus Malaysia"
+  - text: Malaysia
+  - img "redBus Peru"
+  - text: Peru
+  - img "redBus Singapore"
+  - text: Singapore
+  - img "redBus Vietnam"
+  - text: Vietnam
+  - img "redBus Cambodia"
+  - text: Cambodia
+  - heading "BOOK BUS TICKETS ONLINE" [level=2]
+  - paragraph:
+    - text: redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus and
+    - link "train ticket"
+    - text: booking; with over 36 million satisfied customers, 3500+ bus operators to choose from, and plenty of offers on bus ticket booking, redBus makes road journeys super convenient for travellers. A leading platform for booking bus tickets, redBus has been the leader in online bus booking over the past 17 years across thousands of cities and lakhs of routes in India.
+  - paragraph: Booking a bus ticket online on the redBus app or website is very simple. You can download the redBus app or visit redbus.in and enter your source, destination & travel date to check the top-rated bus services available. You can then compare the cheapest ticket price, user ratings & amenities, select your preferred seat, boarding & dropping points and pay using multiple payment options like UPI, debit or credit card, net banking and more. With redBus, get assured safe & secure payment methods and guaranteed travel ... Read more
+  - heading "Bus Booking redDeals on redBus" [level=2]
+  - paragraph: Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!
+  - text: 
+  - paragraph: Unlock Unbeatable Exclusive redDeals! 20% OFF
+  - paragraph: 3914 Deals 1731 Bus Operators 638771 Routes
+  - button "Book now"
+  - heading "FAQs related to Bus Tickets Booking" [level=2]
+  - text: General Ticket-related Payment Cancellation & Refund Can I track the location of my booked bus online?  What are the advantages of purchasing a bus ticket with redBus?  Why book bus tickets online on redBus?  Do I need to create an account on the redBus site to book my bus ticket?  Does bus booking online cost me more?  How can I get the discounts on the bus booking?  What's New in Bus Booking on redBus?  Can I book a Government bus ticket on redBus? 
+- list:
+  - listitem:
+    - heading "Popular Bus Routes" [level=3]
+    - text: 
+    - heading "Popular Cities" [level=3]
+    - text: 
+    - heading "Popular Bus Operators" [level=3]
+    - text: 
+- list:
+  - listitem:
+    - img "redBus"
+    - text: redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+  - listitem:
+    - strong: About redBus
+    - link "About us"
+    - link "Investor Relations"
+    - link "Contact us"
+    - link "redBus on mobile"
+    - link "Sitemap"
+    - link "Offers"
+    - link "Careers"
+    - link "Values"
+  - listitem:
+    - strong: Info
+    - link "T&C"
+    - link "Privacy policy"
+    - link "FAQ"
+    - link "Blog"
+    - link "Bus operator registration"
+    - link "Agent registration"
+    - link "Insurance partner"
+    - link "User agreement"
+    - link "Primo Bus"
+    - link "Bus Timetable"
+  - listitem:
+    - strong: Global Sites
+    - link "India"
+    - link "Singapore"
+    - link "Malaysia"
+    - link "Indonesia"
+    - link "Peru"
+    - link "Colombia"
+    - link "Cambodia"
+    - link "Vietnam"
+  - listitem:
+    - strong: Our Partners
+    - link "Goibibo Bus"
+    - link "Goibibo Hotels"
+    - link "Makemytrip Hotels"
+- text: Ⓒ 2025 Redbus India Pvt Ltd. All rights reserved
+- link "redbus_facebook":
+  - img "redbus_facebook"
+- link "redbus_linkedin":
+  - img "redbus_linkedin"
+- link "redbus_twitter":
+  - img "redbus_twitter"
+- link "redbus_instagram":
+  - img "redbus_instagram"
+```
+
+# Test source
+
+```ts
+   1 | import {test,expect} from '@playwright/test'
+   2 | import { assert } from 'console'
+   3 | test('login',async({page})=>{
+   4 |     await page.goto('https://room.chingari.io/live/explore')
+   5 |     await page.locator("//img[@alt='user']").click()
+   6 |     //await page.waitForSelector('selector', { timeout: 50000 }); 
+   7 | })
+   8 |
+   9 | test('select',async({page})=>{
+  10 |     await page.goto('https://www.redbus.in/')
+> 11 |     await expect(page).toHaveTitle("India's No. 1 Online Bus Ticket Booking Site");
+     |                        ^ Error: Timed out 5000ms waiting for expect(locator).toHaveTitle(expected)
+  12 |     
+  13 | })
+```
