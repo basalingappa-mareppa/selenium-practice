@@ -8,6 +8,11 @@ test('login',async({page})=>{
 
 test('select',async({page})=>{
     await page.goto('https://www.redbus.in/')
-    await expect(page).toHaveTitle("India's No. 1 Online Bus Ticket Booking Site");
+    await expect(page).toHaveTitle("Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus");
     
+})
+
+test('dropdown',async({page})=>{
+    await page.goto('https://www.redbus.in/')
+    await page.click("//span[text()='Date']");
 })
