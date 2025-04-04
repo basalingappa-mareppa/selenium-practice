@@ -1,47 +1,361 @@
-<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="10.430565">
-<testsuite name="login.spec.js" timestamp="2025-04-02T09:30:59.739Z" hostname="chromium" tests="2" failures="1" skipped="0" time="13.58" errors="0">
-<testcase name="login" classname="login.spec.js" time="4.929">
+<testsuites id="" name="" tests="24" failures="3" skipped="0" errors="0" time="114.44868799999999">
+<testsuite name="chingari.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.773" errors="0">
+<testcase name="tiltle_check" classname="chingari.spec.js" time="6.773">
+<system-out>
+<![CDATA[[36m[AsyncFunction: title][39m
+]]>
+</system-out>
 </testcase>
-<testcase name="select" classname="login.spec.js" time="8.651">
-<failure message="login.spec.js:9:5 select" type="FAILURE">
-<![CDATA[  [chromium] › login.spec.js:9:5 › select ──────────────────────────────────────────────────────────
+</testsuite>
+<testsuite name="doublecl.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.227" errors="0">
+<testcase name="double click" classname="doublecl.spec.js" time="7.227">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="chromium" tests="3" failures="0" skipped="0" time="20.808" errors="0">
+<testcase name="login" classname="login.spec.js" time="10.561">
+</testcase>
+<testcase name="select" classname="login.spec.js" time="7.734">
+</testcase>
+<testcase name="dropdown" classname="login.spec.js" time="2.513">
+</testcase>
+</testsuite>
+<testsuite name="loginwithpoc.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="chromium" tests="1" failures="1" skipped="0" time="39.885" errors="0">
+<testcase name="pob" classname="loginwithpoc.spec.js" time="39.885">
+<failure message="loginwithpoc.spec.js:4:5 pob" type="FAILURE">
+<![CDATA[  [chromium] › loginwithpoc.spec.js:4:5 › pob ──────────────────────────────────────────────────────
 
-    Error: Timed out 5000ms waiting for expect(locator).toHaveTitle(expected)
-
-    Locator: locator(':root')
-    Expected string: "India's No. 1 Online Bus Ticket Booking Site"
-    Received string: "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus"
+    Error: elementHandle.click: Target page, context or browser has been closed
     Call log:
-      - expect.toHaveTitle with timeout 5000ms
-      - waiting for locator(':root')
-        8 × locator resolved to <html lang="en">…</html>
-          - unexpected value "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redBus"
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        55 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
 
 
-       9 | test('select',async({page})=>{
-      10 |     await page.goto('https://www.redbus.in/')
-    > 11 |     await expect(page).toHaveTitle("India's No. 1 Online Bus Ticket Booking Site");
-         |                        ^
-      12 |     
-      13 | })
-        at /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:11:24
+       at ../page/home.js:16
 
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results/login-select-chromium/test-failed-1.png
+      14 |             if (productName === await pro.textContent()) 
+      15 |             {
+    > 16 |                 await pro.click();
+         |                           ^
+      17 |                 break;  // Exit the loop after the first match is clicked.
+      18 |             }
+      19 |         }
+        at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)
+        at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-chromium/video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    test-results/login-select-chromium/video.webm
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: Target page, context or browser has been closed
+    Call log:
+      - navigating to "https://www.demoblaze.com/index.html", waiting until "load"
+
+
+       at ../page/login.js:14
+
+      12 | async gotologinpage()
+      13 | {
+    > 14 |     await this.page.goto('https://www.demoblaze.com/index.html')
+         |                     ^
+      15 | }
+      16 |
+      17 | async login(username,password)
+        at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)
+        at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-chromium-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/loginwithpoc-pob-chromium-retry1/trace.zip
+
     ────────────────────────────────────────────────────────────────────────────────────────────────
 ]]>
 </failure>
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results/login-select-chromium/test-failed-1.png]]
+[[ATTACHMENT|test-results/loginwithpoc-pob-chromium/video.webm]]
 
-[[ATTACHMENT|test-results/login-select-chromium/video.webm]]
+[[ATTACHMENT|test-results/loginwithpoc-pob-chromium-retry1/video.webm]]
+
+[[ATTACHMENT|test-results/loginwithpoc-pob-chromium-retry1/trace.zip]]
 ]]>
 </system-out>
+</testcase>
+</testsuite>
+<testsuite name="mlinks.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.27" errors="0">
+<testcase name="auto sugestion" classname="mlinks.spec.js" time="4.27">
+</testcase>
+</testsuite>
+<testsuite name="screenshot.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.146" errors="0">
+<testcase name="screenshot" classname="screenshot.spec.js" time="3.146">
+</testcase>
+</testsuite>
+<testsuite name="chingari.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="firefox" tests="1" failures="0" skipped="0" time="4.635" errors="0">
+<testcase name="tiltle_check" classname="chingari.spec.js" time="4.635">
+<system-out>
+<![CDATA[[36m[AsyncFunction: title][39m
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="doublecl.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="firefox" tests="1" failures="0" skipped="0" time="8.634" errors="0">
+<testcase name="double click" classname="doublecl.spec.js" time="8.634">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="firefox" tests="3" failures="0" skipped="0" time="13.778" errors="0">
+<testcase name="login" classname="login.spec.js" time="5.143">
+</testcase>
+<testcase name="select" classname="login.spec.js" time="3.954">
+</testcase>
+<testcase name="dropdown" classname="login.spec.js" time="4.681">
+</testcase>
+</testsuite>
+<testsuite name="loginwithpoc.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="firefox" tests="1" failures="1" skipped="0" time="22.547" errors="0">
+<testcase name="pob" classname="loginwithpoc.spec.js" time="22.547">
+<failure message="loginwithpoc.spec.js:4:5 pob" type="FAILURE">
+<![CDATA[  [firefox] › loginwithpoc.spec.js:4:5 › pob ───────────────────────────────────────────────────────
+
+    Error: elementHandle.click: Target page, context or browser has been closed
+    Call log:
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        21 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at ../page/home.js:16
+
+      14 |             if (productName === await pro.textContent()) 
+      15 |             {
+    > 16 |                 await pro.click();
+         |                           ^
+      17 |                 break;  // Exit the loop after the first match is clicked.
+      18 |             }
+      19 |         }
+        at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)
+        at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-firefox/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: Target page, context or browser has been closed
+    Call log:
+      - navigating to "https://www.demoblaze.com/index.html", waiting until "load"
+
+
+       at ../page/login.js:14
+
+      12 | async gotologinpage()
+      13 | {
+    > 14 |     await this.page.goto('https://www.demoblaze.com/index.html')
+         |                     ^
+      15 | }
+      16 |
+      17 | async login(username,password)
+        at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)
+        at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-firefox-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-firefox-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/loginwithpoc-pob-firefox-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/loginwithpoc-pob-firefox/video.webm]]
+
+[[ATTACHMENT|test-results/loginwithpoc-pob-firefox-retry1/video.webm]]
+
+[[ATTACHMENT|test-results/loginwithpoc-pob-firefox-retry1/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="mlinks.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="firefox" tests="1" failures="0" skipped="0" time="5.203" errors="0">
+<testcase name="auto sugestion" classname="mlinks.spec.js" time="5.203">
+</testcase>
+</testsuite>
+<testsuite name="screenshot.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="firefox" tests="1" failures="0" skipped="0" time="3.082" errors="0">
+<testcase name="screenshot" classname="screenshot.spec.js" time="3.082">
+</testcase>
+</testsuite>
+<testsuite name="chingari.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="webkit" tests="1" failures="0" skipped="0" time="5.212" errors="0">
+<testcase name="tiltle_check" classname="chingari.spec.js" time="5.212">
+<system-out>
+<![CDATA[[36m[AsyncFunction: title][39m
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="doublecl.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="webkit" tests="1" failures="0" skipped="0" time="5.359" errors="0">
+<testcase name="double click" classname="doublecl.spec.js" time="5.359">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="webkit" tests="3" failures="0" skipped="0" time="8.255" errors="0">
+<testcase name="login" classname="login.spec.js" time="2.933">
+</testcase>
+<testcase name="select" classname="login.spec.js" time="2.822">
+</testcase>
+<testcase name="dropdown" classname="login.spec.js" time="2.5">
+</testcase>
+</testsuite>
+<testsuite name="loginwithpoc.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="webkit" tests="1" failures="1" skipped="0" time="68.775" errors="0">
+<testcase name="pob" classname="loginwithpoc.spec.js" time="68.775">
+<failure message="loginwithpoc.spec.js:4:5 pob" type="FAILURE">
+<![CDATA[  [webkit] › loginwithpoc.spec.js:4:5 › pob ────────────────────────────────────────────────────────
+
+    TypeError: this.page.addtocart is not a function
+
+       at ../page/home.js:26
+
+      24 |             }
+      25 |         });
+    > 26 |         await this.page.addtocart().click();
+         |                         ^
+      27 |     }
+      28 |     async gotocart()
+      29 |     {
+        at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:26:25)
+        at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-webkit/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 40000ms exceeded.
+
+    Error: elementHandle.click: Test timeout of 40000ms exceeded.
+    Call log:
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        61 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at ../page/home.js:16
+
+      14 |             if (productName === await pro.textContent()) 
+      15 |             {
+    > 16 |                 await pro.click();
+         |                           ^
+      17 |                 break;  // Exit the loop after the first match is clicked.
+      18 |             }
+      19 |         }
+        at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)
+        at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-webkit-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/loginwithpoc-pob-webkit-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/loginwithpoc-pob-webkit-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/loginwithpoc-pob-webkit/test-failed-1.png]]
+
+[[ATTACHMENT|test-results/loginwithpoc-pob-webkit/video.webm]]
+
+[[ATTACHMENT|test-results/loginwithpoc-pob-webkit-retry1/video.webm]]
+
+[[ATTACHMENT|test-results/loginwithpoc-pob-webkit-retry1/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="mlinks.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="webkit" tests="1" failures="0" skipped="0" time="3.868" errors="0">
+<testcase name="auto sugestion" classname="mlinks.spec.js" time="3.868">
+</testcase>
+</testsuite>
+<testsuite name="screenshot.spec.js" timestamp="2025-04-04T06:35:26.926Z" hostname="webkit" tests="1" failures="0" skipped="0" time="6.615" errors="0">
+<testcase name="screenshot" classname="screenshot.spec.js" time="6.615">
 </testcase>
 </testsuite>
 </testsuites>

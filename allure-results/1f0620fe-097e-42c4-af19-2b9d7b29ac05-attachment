@@ -1,0 +1,81 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: pob
+- Location: /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:4:5
+
+# Error details
+
+```
+Error: elementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    21 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)
+    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5
+```
+
+# Test source
+
+```ts
+   1 | exports.Homepage=class Homepage
+   2 | {
+   3 |     constructor(page)
+   4 |     {
+   5 |          this.page=page;
+   6 |          this.productlist="//div[@id='tbodyid']/div/div/div/h4/a";
+   7 |          this.addtocart="//div[@id='tbodyid']/div/div/div/h4/a";
+   8 |          this.cartpage="#cartur";
+   9 |     }
+  10 |     async allproducts(productName) {
+  11 |         const plist = await this.page.$$(this.productlist);
+  12 |         for (const pro of plist) 
+  13 |         {
+  14 |             if (productName === await pro.textContent()) 
+  15 |             {
+> 16 |                 await pro.click();
+     |                           ^ Error: elementHandle.click: Target page, context or browser has been closed
+  17 |                 break;  // Exit the loop after the first match is clicked.
+  18 |             }
+  19 |         }
+  20 |     
+  21 |         await this.page.on('dialog', async dialog => {
+  22 |             if (dialog.message().includes('added')) {
+  23 |                 await dialog.accept();
+  24 |             }
+  25 |         });
+  26 |         await this.page.addtocart().click();
+  27 |     }
+  28 |     async gotocart()
+  29 |     {
+  30 |         await this.page.locator(this.page.cartpage).click();
+  31 |     }
+  32 |     
+  33 | }
+```

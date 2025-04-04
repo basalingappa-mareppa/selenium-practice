@@ -1,0 +1,53 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: pob
+- Location: /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:4:5
+
+# Error details
+
+```
+Error: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.demoblaze.com/index.html", waiting until "load"
+
+    at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)
+    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15
+```
+
+# Test source
+
+```ts
+   1 | exports.Loginpage=
+   2 | class Loginpage
+   3 | {
+   4 | constructor(page)
+   5 | {
+   6 |     this.page=page;
+   7 |     this.logilink='#login2';
+   8 |     this.username='#loginusername';
+   9 |     this.password='#loginpassword';
+  10 |     this.loginbutton="button[onclick='logIn()']";
+  11 | }
+  12 | async gotologinpage()
+  13 | {
+> 14 |     await this.page.goto('https://www.demoblaze.com/index.html')
+     |                     ^ Error: page.goto: Target page, context or browser has been closed
+  15 | }
+  16 |
+  17 | async login(username,password)
+  18 | {
+  19 |     await this.page.locator(this.logilink).click();
+  20 |     await this.page.locator(this.username).fill(username);
+  21 |     await this.page.locator(this.password).fill(password);
+  22 |     await this.page.locator(this.loginbutton).click();
+  23 |
+  24 | }
+  25 | }
+  26 |
+```
