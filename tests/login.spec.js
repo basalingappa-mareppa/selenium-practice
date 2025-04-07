@@ -14,7 +14,7 @@ test('select',async({page})=>{
     
 })
 
-test('dropdown',async({page})=>{
+test('dropdowntest',async({page})=>{
     await page.goto('https://www.google.com/')
     //await page.click("//span[text()='Date']");
 })
