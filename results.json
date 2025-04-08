@@ -51,7 +51,7 @@
       {
         "outputDir": "/Users/basu/Desktop/playwrightautomation/test-results",
         "repeatEach": 1,
-        "retries": 1,
+        "retries": 0,
         "metadata": {
           "actualWorkers": 4
         },
@@ -67,7 +67,7 @@
       {
         "outputDir": "/Users/basu/Desktop/playwrightautomation/test-results",
         "repeatEach": 1,
-        "retries": 1,
+        "retries": 0,
         "metadata": {
           "actualWorkers": 4
         },
@@ -83,7 +83,7 @@
       {
         "outputDir": "/Users/basu/Desktop/playwrightautomation/test-results",
         "repeatEach": 1,
-        "retries": 1,
+        "retries": 0,
         "metadata": {
           "actualWorkers": 4
         },
@@ -106,232 +106,6 @@
   },
   "suites": [
     {
-      "title": "chingari.spec.js",
-      "file": "chingari.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "tiltle_check",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 6773,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[36m[AsyncFunction: title]\u001b[39m\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:27.563Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bbe87b1698aa46bbb31f-6fda712a853cbc372142",
-          "file": "chingari.spec.js",
-          "line": 2,
-          "column": 2
-        },
-        {
-          "title": "tiltle_check",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 4635,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[36m[AsyncFunction: title]\u001b[39m\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:42.883Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bbe87b1698aa46bbb31f-ba131331d042ac80e12c",
-          "file": "chingari.spec.js",
-          "line": 2,
-          "column": 2
-        },
-        {
-          "title": "tiltle_check",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 5212,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[36m[AsyncFunction: title]\u001b[39m\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:59.701Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bbe87b1698aa46bbb31f-19b28c1213358d0b589f",
-          "file": "chingari.spec.js",
-          "line": 2,
-          "column": 2
-        }
-      ]
-    },
-    {
-      "title": "doublecl.spec.js",
-      "file": "doublecl.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "double click",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 7227,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:27.565Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "060281efe991d2c33c81-246254d69318697f898e",
-          "file": "doublecl.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "double click",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "parallelIndex": 3,
-                  "status": "passed",
-                  "duration": 8634,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:43.836Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "060281efe991d2c33c81-8daa0fd7da8837a9785a",
-          "file": "doublecl.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "double click",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 8,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5359,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:00.739Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "060281efe991d2c33c81-580f255c2417f4dbc01e",
-          "file": "doublecl.spec.js",
-          "line": 2,
-          "column": 5
-        }
-      ]
-    },
-    {
       "title": "login.spec.js",
       "file": "login.spec.js",
       "column": 0,
@@ -350,15 +124,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 10561,
+                  "duration": 6510,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-04-04T06:35:27.559Z",
+                  "startTime": "2025-04-08T08:13:26.574Z",
                   "attachments": []
                 }
               ],
@@ -383,15 +157,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 7734,
+                  "duration": 4639,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-04-04T06:35:27.566Z",
+                  "startTime": "2025-04-08T08:13:26.585Z",
                   "attachments": []
                 }
               ],
@@ -404,7 +178,7 @@
           "column": 5
         },
         {
-          "title": "dropdown",
+          "title": "dropdowntest",
           "ok": true,
           "tags": [],
           "tests": [
@@ -416,595 +190,29 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2513,
+                  "duration": 9293,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-04-04T06:35:38.032Z",
+                  "startTime": "2025-04-08T08:13:26.580Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "badc1754af1944f68b2b-6a5039c82aaf7ca274ed",
+          "id": "badc1754af1944f68b2b-b05834d3dde83f8375d7",
           "file": "login.spec.js",
           "line": 17,
           "column": 5
         },
         {
-          "title": "login",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5143,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:44.243Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-f7b74e2677c202c1e0eb",
-          "file": "login.spec.js",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "select",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3954,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:50.772Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-7621bdc40d37f485660a",
-          "file": "login.spec.js",
-          "line": 11,
-          "column": 5
-        },
-        {
-          "title": "dropdown",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 4681,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:50.928Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-b35d0d2bf8597b469245",
-          "file": "login.spec.js",
-          "line": 17,
-          "column": 5
-        },
-        {
-          "title": "login",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 2933,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:08.386Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-cfda176b05080e73289b",
-          "file": "login.spec.js",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "select",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 8,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2822,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:08.526Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-2065b289b0628e980cd4",
-          "file": "login.spec.js",
-          "line": 11,
-          "column": 5
-        },
-        {
-          "title": "dropdown",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 2500,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:11.329Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-c7189f5fb7e99ee34df8",
-          "file": "login.spec.js",
-          "line": 17,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "loginwithpoc.spec.js",
-      "file": "loginwithpoc.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "pob",
+          "title": "login the aplication",
           "ok": false,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "failed",
-                  "duration": 37709,
-                  "error": {
-                    "message": "Error: elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
-                    "stack": "Error: elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)\n    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5",
-                    "location": {
-                      "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                      "column": 27,
-                      "line": 16
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../page/home.js:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m             \u001b[36mif\u001b[39m (productName \u001b[33m===\u001b[39m \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mtextContent()) \n \u001b[90m 15 |\u001b[39m             {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m                 \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m                 \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m  \u001b[90m// Exit the loop after the first match is clicked.\u001b[39m\n \u001b[90m 18 |\u001b[39m             }\n \u001b[90m 19 |\u001b[39m         }\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                        "column": 27,
-                        "line": 16
-                      },
-                      "message": "Error: elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../page/home.js:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m             \u001b[36mif\u001b[39m (productName \u001b[33m===\u001b[39m \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mtextContent()) \n \u001b[90m 15 |\u001b[39m             {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m                 \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m                 \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m  \u001b[90m// Exit the loop after the first match is clicked.\u001b[39m\n \u001b[90m 18 |\u001b[39m             }\n \u001b[90m 19 |\u001b[39m         }\u001b[0m\n\u001b[2m    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)\u001b[22m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:38.492Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-chromium/video.webm"
-                    },
-                    {
-                      "name": "_prompt-0",
-                      "contentType": "text/markdown",
-                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBwb2IKLSBMb2NhdGlvbjogL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo0OjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBlbGVtZW50SGFuZGxlLmNsaWNrOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZApDYWxsIGxvZzoKICAtIGF0dGVtcHRpbmcgY2xpY2sgYWN0aW9uCiAgICAyIMOXIHdhaXRpbmcgZm9yIGVsZW1lbnQgdG8gYmUgdmlzaWJsZSwgZW5hYmxlZCBhbmQgc3RhYmxlCiAgICAgIC0gZWxlbWVudCBpcyB2aXNpYmxlLCBlbmFibGVkIGFuZCBzdGFibGUKICAgICAgLSBzY3JvbGxpbmcgaW50byB2aWV3IGlmIG5lZWRlZAogICAgICAtIGRvbmUgc2Nyb2xsaW5nCiAgICAgIC0gPGRpdiB0YWJpbmRleD0iLTEiIHJvbGU9ImRpYWxvZyIgaWQ9ImxvZ0luTW9kYWwiIGNsYXNzPSJtb2RhbCBmYWRlIHNob3ciIGFyaWEtbGFiZWxsZWRieT0ibG9nSW5Nb2RhbExhYmVsIj7igKY8L2Rpdj4gaW50ZXJjZXB0cyBwb2ludGVyIGV2ZW50cwogICAgLSByZXRyeWluZyBjbGljayBhY3Rpb24KICAgIC0gd2FpdGluZyAyMG1zCiAgICAyIMOXIHdhaXRpbmcgZm9yIGVsZW1lbnQgdG8gYmUgdmlzaWJsZSwgZW5hYmxlZCBhbmQgc3RhYmxlCiAgICAgIC0gZWxlbWVudCBpcyB2aXNpYmxlLCBlbmFibGVkIGFuZCBzdGFibGUKICAgICAgLSBzY3JvbGxpbmcgaW50byB2aWV3IGlmIG5lZWRlZAogICAgICAtIGRvbmUgc2Nyb2xsaW5nCiAgICAgIC0gPGRpdiB0YWJpbmRleD0iLTEiIHJvbGU9ImRpYWxvZyIgaWQ9ImxvZ0luTW9kYWwiIGNsYXNzPSJtb2RhbCBmYWRlIHNob3ciIGFyaWEtbGFiZWxsZWRieT0ibG9nSW5Nb2RhbExhYmVsIj7igKY8L2Rpdj4gaW50ZXJjZXB0cyBwb2ludGVyIGV2ZW50cwogICAgLSByZXRyeWluZyBjbGljayBhY3Rpb24KICAgICAgLSB3YWl0aW5nIDEwMG1zCiAgICA1NSDDlyB3YWl0aW5nIGZvciBlbGVtZW50IHRvIGJlIHZpc2libGUsIGVuYWJsZWQgYW5kIHN0YWJsZQogICAgICAgLSBlbGVtZW50IGlzIHZpc2libGUsIGVuYWJsZWQgYW5kIHN0YWJsZQogICAgICAgLSBzY3JvbGxpbmcgaW50byB2aWV3IGlmIG5lZWRlZAogICAgICAgLSBkb25lIHNjcm9sbGluZwogICAgICAgLSA8ZGl2IHRhYmluZGV4PSItMSIgcm9sZT0iZGlhbG9nIiBpZD0ibG9nSW5Nb2RhbCIgY2xhc3M9Im1vZGFsIGZhZGUgc2hvdyIgYXJpYS1sYWJlbGxlZGJ5PSJsb2dJbk1vZGFsTGFiZWwiPuKApjwvZGl2PiBpbnRlcmNlcHRzIHBvaW50ZXIgZXZlbnRzCiAgICAgLSByZXRyeWluZyBjbGljayBhY3Rpb24KICAgICAgIC0gd2FpdGluZyA1MDBtcwoKICAgIGF0IEhvbWVwYWdlLmFsbHByb2R1Y3RzICgvVXNlcnMvYmFzdS9EZXNrdG9wL3BsYXl3cmlnaHRhdXRvbWF0aW9uL3BhZ2UvaG9tZS5qczoxNjoyNykKICAgIGF0IC9Vc2Vycy9iYXN1L0Rlc2t0b3AvcGxheXdyaWdodGF1dG9tYXRpb24vdGVzdHMvbG9naW53aXRocG9jLnNwZWMuanM6MTE6NQpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBleHBvcnRzLkhvbWVwYWdlPWNsYXNzIEhvbWVwYWdlCiAgIDIgfCB7CiAgIDMgfCAgICAgY29uc3RydWN0b3IocGFnZSkKICAgNCB8ICAgICB7CiAgIDUgfCAgICAgICAgICB0aGlzLnBhZ2U9cGFnZTsKICAgNiB8ICAgICAgICAgIHRoaXMucHJvZHVjdGxpc3Q9Ii8vZGl2W0BpZD0ndGJvZHlpZCddL2Rpdi9kaXYvZGl2L2g0L2EiOwogICA3IHwgICAgICAgICAgdGhpcy5hZGR0b2NhcnQ9Ii8vZGl2W0BpZD0ndGJvZHlpZCddL2Rpdi9kaXYvZGl2L2g0L2EiOwogICA4IHwgICAgICAgICAgdGhpcy5jYXJ0cGFnZT0iI2NhcnR1ciI7CiAgIDkgfCAgICAgfQogIDEwIHwgICAgIGFzeW5jIGFsbHByb2R1Y3RzKHByb2R1Y3ROYW1lKSB7CiAgMTEgfCAgICAgICAgIGNvbnN0IHBsaXN0ID0gYXdhaXQgdGhpcy5wYWdlLiQkKHRoaXMucHJvZHVjdGxpc3QpOwogIDEyIHwgICAgICAgICBmb3IgKGNvbnN0IHBybyBvZiBwbGlzdCkgCiAgMTMgfCAgICAgICAgIHsKICAxNCB8ICAgICAgICAgICAgIGlmIChwcm9kdWN0TmFtZSA9PT0gYXdhaXQgcHJvLnRleHRDb250ZW50KCkpIAogIDE1IHwgICAgICAgICAgICAgewo+IDE2IHwgICAgICAgICAgICAgICAgIGF3YWl0IHByby5jbGljaygpOwogICAgIHwgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBlbGVtZW50SGFuZGxlLmNsaWNrOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZAogIDE3IHwgICAgICAgICAgICAgICAgIGJyZWFrOyAgLy8gRXhpdCB0aGUgbG9vcCBhZnRlciB0aGUgZmlyc3QgbWF0Y2ggaXMgY2xpY2tlZC4KICAxOCB8ICAgICAgICAgICAgIH0KICAxOSB8ICAgICAgICAgfQogIDIwIHwgICAgIAogIDIxIHwgICAgICAgICBhd2FpdCB0aGlzLnBhZ2Uub24oJ2RpYWxvZycsIGFzeW5jIGRpYWxvZyA9PiB7CiAgMjIgfCAgICAgICAgICAgICBpZiAoZGlhbG9nLm1lc3NhZ2UoKS5pbmNsdWRlcygnYWRkZWQnKSkgewogIDIzIHwgICAgICAgICAgICAgICAgIGF3YWl0IGRpYWxvZy5hY2NlcHQoKTsKICAyNCB8ICAgICAgICAgICAgIH0KICAyNSB8ICAgICAgICAgfSk7CiAgMjYgfCAgICAgICAgIGF3YWl0IHRoaXMucGFnZS5hZGR0b2NhcnQoKS5jbGljaygpOwogIDI3IHwgICAgIH0KICAyOCB8ICAgICBhc3luYyBnb3RvY2FydCgpCiAgMjkgfCAgICAgewogIDMwIHwgICAgICAgICBhd2FpdCB0aGlzLnBhZ2UubG9jYXRvcih0aGlzLnBhZ2UuY2FydHBhZ2UpLmNsaWNrKCk7CiAgMzEgfCAgICAgfQogIDMyIHwgICAgIAogIDMzIHwgfQpgYGA="
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                    "column": 27,
-                    "line": 16
-                  }
-                },
-                {
-                  "workerIndex": 10,
-                  "parallelIndex": 1,
-                  "status": "failed",
-                  "duration": 2176,
-                  "error": {
-                    "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.demoblaze.com/index.html\", waiting until \"load\"\u001b[22m\n",
-                    "stack": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.demoblaze.com/index.html\", waiting until \"load\"\u001b[22m\n\n    at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)\n    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15",
-                    "location": {
-                      "file": "/Users/basu/Desktop/playwrightautomation/page/login.js",
-                      "column": 21,
-                      "line": 14
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../page/login.js:14\n\n\u001b[0m \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m gotologinpage()\n \u001b[90m 13 |\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m }\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m \u001b[36masync\u001b[39m login(username\u001b[33m,\u001b[39mpassword)\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/Users/basu/Desktop/playwrightautomation/page/login.js",
-                        "column": 21,
-                        "line": 14
-                      },
-                      "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.demoblaze.com/index.html\", waiting until \"load\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../page/login.js:14\n\n\u001b[0m \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m gotologinpage()\n \u001b[90m 13 |\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m }\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m \u001b[36masync\u001b[39m login(username\u001b[33m,\u001b[39mpassword)\u001b[0m\n\u001b[2m    at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)\u001b[22m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 1,
-                  "startTime": "2025-04-04T06:36:17.228Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-chromium-retry1/video.webm"
-                    },
-                    {
-                      "name": "_prompt-0",
-                      "contentType": "text/markdown",
-                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBwb2IKLSBMb2NhdGlvbjogL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo0OjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBwYWdlLmdvdG86IFRhcmdldCBwYWdlLCBjb250ZXh0IG9yIGJyb3dzZXIgaGFzIGJlZW4gY2xvc2VkCkNhbGwgbG9nOgogIC0gbmF2aWdhdGluZyB0byAiaHR0cHM6Ly93d3cuZGVtb2JsYXplLmNvbS9pbmRleC5odG1sIiwgd2FpdGluZyB1bnRpbCAibG9hZCIKCiAgICBhdCBMb2dpbnBhZ2UuZ290b2xvZ2lucGFnZSAoL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi9wYWdlL2xvZ2luLmpzOjE0OjIxKQogICAgYXQgL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo2OjE1CmBgYAoKIyBUZXN0IHNvdXJjZQoKYGBgdHMKICAgMSB8IGV4cG9ydHMuTG9naW5wYWdlPQogICAyIHwgY2xhc3MgTG9naW5wYWdlCiAgIDMgfCB7CiAgIDQgfCBjb25zdHJ1Y3RvcihwYWdlKQogICA1IHwgewogICA2IHwgICAgIHRoaXMucGFnZT1wYWdlOwogICA3IHwgICAgIHRoaXMubG9naWxpbms9JyNsb2dpbjInOwogICA4IHwgICAgIHRoaXMudXNlcm5hbWU9JyNsb2dpbnVzZXJuYW1lJzsKICAgOSB8ICAgICB0aGlzLnBhc3N3b3JkPScjbG9naW5wYXNzd29yZCc7CiAgMTAgfCAgICAgdGhpcy5sb2dpbmJ1dHRvbj0iYnV0dG9uW29uY2xpY2s9J2xvZ0luKCknXSI7CiAgMTEgfCB9CiAgMTIgfCBhc3luYyBnb3RvbG9naW5wYWdlKCkKICAxMyB8IHsKPiAxNCB8ICAgICBhd2FpdCB0aGlzLnBhZ2UuZ290bygnaHR0cHM6Ly93d3cuZGVtb2JsYXplLmNvbS9pbmRleC5odG1sJykKICAgICB8ICAgICAgICAgICAgICAgICAgICAgXiBFcnJvcjogcGFnZS5nb3RvOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZAogIDE1IHwgfQogIDE2IHwKICAxNyB8IGFzeW5jIGxvZ2luKHVzZXJuYW1lLHBhc3N3b3JkKQogIDE4IHwgewogIDE5IHwgICAgIGF3YWl0IHRoaXMucGFnZS5sb2NhdG9yKHRoaXMubG9naWxpbmspLmNsaWNrKCk7CiAgMjAgfCAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy51c2VybmFtZSkuZmlsbCh1c2VybmFtZSk7CiAgMjEgfCAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy5wYXNzd29yZCkuZmlsbChwYXNzd29yZCk7CiAgMjIgfCAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy5sb2dpbmJ1dHRvbikuY2xpY2soKTsKICAyMyB8CiAgMjQgfCB9CiAgMjUgfCB9CiAgMjYgfApgYGA="
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-chromium-retry1/trace.zip"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/Users/basu/Desktop/playwrightautomation/page/login.js",
-                    "column": 21,
-                    "line": 14
-                  }
-                }
-              ],
-              "status": "unexpected"
-            }
-          ],
-          "id": "55f2c691391bae3c7ae8-2a56fddf34e20d1d0048",
-          "file": "loginwithpoc.spec.js",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "pob",
-          "ok": false,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "parallelIndex": 3,
-                  "status": "failed",
-                  "duration": 19933,
-                  "error": {
-                    "message": "Error: elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    21 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
-                    "stack": "Error: elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    21 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)\n    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5",
-                    "location": {
-                      "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                      "column": 27,
-                      "line": 16
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../page/home.js:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m             \u001b[36mif\u001b[39m (productName \u001b[33m===\u001b[39m \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mtextContent()) \n \u001b[90m 15 |\u001b[39m             {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m                 \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m                 \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m  \u001b[90m// Exit the loop after the first match is clicked.\u001b[39m\n \u001b[90m 18 |\u001b[39m             }\n \u001b[90m 19 |\u001b[39m         }\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                        "column": 27,
-                        "line": 16
-                      },
-                      "message": "Error: elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    21 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../page/home.js:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m             \u001b[36mif\u001b[39m (productName \u001b[33m===\u001b[39m \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mtextContent()) \n \u001b[90m 15 |\u001b[39m             {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m                 \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m                 \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m  \u001b[90m// Exit the loop after the first match is clicked.\u001b[39m\n \u001b[90m 18 |\u001b[39m             }\n \u001b[90m 19 |\u001b[39m         }\u001b[0m\n\u001b[2m    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)\u001b[22m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:54.083Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-firefox/video.webm"
-                    },
-                    {
-                      "name": "_prompt-0",
-                      "contentType": "text/markdown",
-                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBwb2IKLSBMb2NhdGlvbjogL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo0OjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBlbGVtZW50SGFuZGxlLmNsaWNrOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZApDYWxsIGxvZzoKICAtIGF0dGVtcHRpbmcgY2xpY2sgYWN0aW9uCiAgICAyIMOXIHdhaXRpbmcgZm9yIGVsZW1lbnQgdG8gYmUgdmlzaWJsZSwgZW5hYmxlZCBhbmQgc3RhYmxlCiAgICAgIC0gZWxlbWVudCBpcyB2aXNpYmxlLCBlbmFibGVkIGFuZCBzdGFibGUKICAgICAgLSBzY3JvbGxpbmcgaW50byB2aWV3IGlmIG5lZWRlZAogICAgICAtIGRvbmUgc2Nyb2xsaW5nCiAgICAgIC0gPGRpdiB0YWJpbmRleD0iLTEiIHJvbGU9ImRpYWxvZyIgaWQ9ImxvZ0luTW9kYWwiIGNsYXNzPSJtb2RhbCBmYWRlIHNob3ciIGFyaWEtbGFiZWxsZWRieT0ibG9nSW5Nb2RhbExhYmVsIj7igKY8L2Rpdj4gaW50ZXJjZXB0cyBwb2ludGVyIGV2ZW50cwogICAgLSByZXRyeWluZyBjbGljayBhY3Rpb24KICAgIC0gd2FpdGluZyAyMG1zCiAgICAyIMOXIHdhaXRpbmcgZm9yIGVsZW1lbnQgdG8gYmUgdmlzaWJsZSwgZW5hYmxlZCBhbmQgc3RhYmxlCiAgICAgIC0gZWxlbWVudCBpcyB2aXNpYmxlLCBlbmFibGVkIGFuZCBzdGFibGUKICAgICAgLSBzY3JvbGxpbmcgaW50byB2aWV3IGlmIG5lZWRlZAogICAgICAtIGRvbmUgc2Nyb2xsaW5nCiAgICAgIC0gPGRpdiB0YWJpbmRleD0iLTEiIHJvbGU9ImRpYWxvZyIgaWQ9ImxvZ0luTW9kYWwiIGNsYXNzPSJtb2RhbCBmYWRlIHNob3ciIGFyaWEtbGFiZWxsZWRieT0ibG9nSW5Nb2RhbExhYmVsIj7igKY8L2Rpdj4gaW50ZXJjZXB0cyBwb2ludGVyIGV2ZW50cwogICAgLSByZXRyeWluZyBjbGljayBhY3Rpb24KICAgICAgLSB3YWl0aW5nIDEwMG1zCiAgICAyMSDDlyB3YWl0aW5nIGZvciBlbGVtZW50IHRvIGJlIHZpc2libGUsIGVuYWJsZWQgYW5kIHN0YWJsZQogICAgICAgLSBlbGVtZW50IGlzIHZpc2libGUsIGVuYWJsZWQgYW5kIHN0YWJsZQogICAgICAgLSBzY3JvbGxpbmcgaW50byB2aWV3IGlmIG5lZWRlZAogICAgICAgLSBkb25lIHNjcm9sbGluZwogICAgICAgLSA8ZGl2IHRhYmluZGV4PSItMSIgcm9sZT0iZGlhbG9nIiBpZD0ibG9nSW5Nb2RhbCIgY2xhc3M9Im1vZGFsIGZhZGUgc2hvdyIgYXJpYS1sYWJlbGxlZGJ5PSJsb2dJbk1vZGFsTGFiZWwiPuKApjwvZGl2PiBpbnRlcmNlcHRzIHBvaW50ZXIgZXZlbnRzCiAgICAgLSByZXRyeWluZyBjbGljayBhY3Rpb24KICAgICAgIC0gd2FpdGluZyA1MDBtcwoKICAgIGF0IEhvbWVwYWdlLmFsbHByb2R1Y3RzICgvVXNlcnMvYmFzdS9EZXNrdG9wL3BsYXl3cmlnaHRhdXRvbWF0aW9uL3BhZ2UvaG9tZS5qczoxNjoyNykKICAgIGF0IC9Vc2Vycy9iYXN1L0Rlc2t0b3AvcGxheXdyaWdodGF1dG9tYXRpb24vdGVzdHMvbG9naW53aXRocG9jLnNwZWMuanM6MTE6NQpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBleHBvcnRzLkhvbWVwYWdlPWNsYXNzIEhvbWVwYWdlCiAgIDIgfCB7CiAgIDMgfCAgICAgY29uc3RydWN0b3IocGFnZSkKICAgNCB8ICAgICB7CiAgIDUgfCAgICAgICAgICB0aGlzLnBhZ2U9cGFnZTsKICAgNiB8ICAgICAgICAgIHRoaXMucHJvZHVjdGxpc3Q9Ii8vZGl2W0BpZD0ndGJvZHlpZCddL2Rpdi9kaXYvZGl2L2g0L2EiOwogICA3IHwgICAgICAgICAgdGhpcy5hZGR0b2NhcnQ9Ii8vZGl2W0BpZD0ndGJvZHlpZCddL2Rpdi9kaXYvZGl2L2g0L2EiOwogICA4IHwgICAgICAgICAgdGhpcy5jYXJ0cGFnZT0iI2NhcnR1ciI7CiAgIDkgfCAgICAgfQogIDEwIHwgICAgIGFzeW5jIGFsbHByb2R1Y3RzKHByb2R1Y3ROYW1lKSB7CiAgMTEgfCAgICAgICAgIGNvbnN0IHBsaXN0ID0gYXdhaXQgdGhpcy5wYWdlLiQkKHRoaXMucHJvZHVjdGxpc3QpOwogIDEyIHwgICAgICAgICBmb3IgKGNvbnN0IHBybyBvZiBwbGlzdCkgCiAgMTMgfCAgICAgICAgIHsKICAxNCB8ICAgICAgICAgICAgIGlmIChwcm9kdWN0TmFtZSA9PT0gYXdhaXQgcHJvLnRleHRDb250ZW50KCkpIAogIDE1IHwgICAgICAgICAgICAgewo+IDE2IHwgICAgICAgICAgICAgICAgIGF3YWl0IHByby5jbGljaygpOwogICAgIHwgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBlbGVtZW50SGFuZGxlLmNsaWNrOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZAogIDE3IHwgICAgICAgICAgICAgICAgIGJyZWFrOyAgLy8gRXhpdCB0aGUgbG9vcCBhZnRlciB0aGUgZmlyc3QgbWF0Y2ggaXMgY2xpY2tlZC4KICAxOCB8ICAgICAgICAgICAgIH0KICAxOSB8ICAgICAgICAgfQogIDIwIHwgICAgIAogIDIxIHwgICAgICAgICBhd2FpdCB0aGlzLnBhZ2Uub24oJ2RpYWxvZycsIGFzeW5jIGRpYWxvZyA9PiB7CiAgMjIgfCAgICAgICAgICAgICBpZiAoZGlhbG9nLm1lc3NhZ2UoKS5pbmNsdWRlcygnYWRkZWQnKSkgewogIDIzIHwgICAgICAgICAgICAgICAgIGF3YWl0IGRpYWxvZy5hY2NlcHQoKTsKICAyNCB8ICAgICAgICAgICAgIH0KICAyNSB8ICAgICAgICAgfSk7CiAgMjYgfCAgICAgICAgIGF3YWl0IHRoaXMucGFnZS5hZGR0b2NhcnQoKS5jbGljaygpOwogIDI3IHwgICAgIH0KICAyOCB8ICAgICBhc3luYyBnb3RvY2FydCgpCiAgMjkgfCAgICAgewogIDMwIHwgICAgICAgICBhd2FpdCB0aGlzLnBhZ2UubG9jYXRvcih0aGlzLnBhZ2UuY2FydHBhZ2UpLmNsaWNrKCk7CiAgMzEgfCAgICAgfQogIDMyIHwgICAgIAogIDMzIHwgfQpgYGA="
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                    "column": 27,
-                    "line": 16
-                  }
-                },
-                {
-                  "workerIndex": 9,
-                  "parallelIndex": 3,
-                  "status": "failed",
-                  "duration": 2614,
-                  "error": {
-                    "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.demoblaze.com/index.html\", waiting until \"load\"\u001b[22m\n",
-                    "stack": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.demoblaze.com/index.html\", waiting until \"load\"\u001b[22m\n\n    at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)\n    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15",
-                    "location": {
-                      "file": "/Users/basu/Desktop/playwrightautomation/page/login.js",
-                      "column": 21,
-                      "line": 14
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../page/login.js:14\n\n\u001b[0m \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m gotologinpage()\n \u001b[90m 13 |\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m }\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m \u001b[36masync\u001b[39m login(username\u001b[33m,\u001b[39mpassword)\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/Users/basu/Desktop/playwrightautomation/page/login.js",
-                        "column": 21,
-                        "line": 14
-                      },
-                      "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.demoblaze.com/index.html\", waiting until \"load\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../page/login.js:14\n\n\u001b[0m \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m gotologinpage()\n \u001b[90m 13 |\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m }\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m \u001b[36masync\u001b[39m login(username\u001b[33m,\u001b[39mpassword)\u001b[0m\n\u001b[2m    at Loginpage.gotologinpage (/Users/basu/Desktop/playwrightautomation/page/login.js:14:21)\u001b[22m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:6:15\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 1,
-                  "startTime": "2025-04-04T06:36:15.350Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-firefox-retry1/video.webm"
-                    },
-                    {
-                      "name": "_prompt-0",
-                      "contentType": "text/markdown",
-                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBwb2IKLSBMb2NhdGlvbjogL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo0OjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBwYWdlLmdvdG86IFRhcmdldCBwYWdlLCBjb250ZXh0IG9yIGJyb3dzZXIgaGFzIGJlZW4gY2xvc2VkCkNhbGwgbG9nOgogIC0gbmF2aWdhdGluZyB0byAiaHR0cHM6Ly93d3cuZGVtb2JsYXplLmNvbS9pbmRleC5odG1sIiwgd2FpdGluZyB1bnRpbCAibG9hZCIKCiAgICBhdCBMb2dpbnBhZ2UuZ290b2xvZ2lucGFnZSAoL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi9wYWdlL2xvZ2luLmpzOjE0OjIxKQogICAgYXQgL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo2OjE1CmBgYAoKIyBUZXN0IHNvdXJjZQoKYGBgdHMKICAgMSB8IGV4cG9ydHMuTG9naW5wYWdlPQogICAyIHwgY2xhc3MgTG9naW5wYWdlCiAgIDMgfCB7CiAgIDQgfCBjb25zdHJ1Y3RvcihwYWdlKQogICA1IHwgewogICA2IHwgICAgIHRoaXMucGFnZT1wYWdlOwogICA3IHwgICAgIHRoaXMubG9naWxpbms9JyNsb2dpbjInOwogICA4IHwgICAgIHRoaXMudXNlcm5hbWU9JyNsb2dpbnVzZXJuYW1lJzsKICAgOSB8ICAgICB0aGlzLnBhc3N3b3JkPScjbG9naW5wYXNzd29yZCc7CiAgMTAgfCAgICAgdGhpcy5sb2dpbmJ1dHRvbj0iYnV0dG9uW29uY2xpY2s9J2xvZ0luKCknXSI7CiAgMTEgfCB9CiAgMTIgfCBhc3luYyBnb3RvbG9naW5wYWdlKCkKICAxMyB8IHsKPiAxNCB8ICAgICBhd2FpdCB0aGlzLnBhZ2UuZ290bygnaHR0cHM6Ly93d3cuZGVtb2JsYXplLmNvbS9pbmRleC5odG1sJykKICAgICB8ICAgICAgICAgICAgICAgICAgICAgXiBFcnJvcjogcGFnZS5nb3RvOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZAogIDE1IHwgfQogIDE2IHwKICAxNyB8IGFzeW5jIGxvZ2luKHVzZXJuYW1lLHBhc3N3b3JkKQogIDE4IHwgewogIDE5IHwgICAgIGF3YWl0IHRoaXMucGFnZS5sb2NhdG9yKHRoaXMubG9naWxpbmspLmNsaWNrKCk7CiAgMjAgfCAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy51c2VybmFtZSkuZmlsbCh1c2VybmFtZSk7CiAgMjEgfCAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy5wYXNzd29yZCkuZmlsbChwYXNzd29yZCk7CiAgMjIgfCAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy5sb2dpbmJ1dHRvbikuY2xpY2soKTsKICAyMyB8CiAgMjQgfCB9CiAgMjUgfCB9CiAgMjYgfApgYGA="
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-firefox-retry1/trace.zip"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/Users/basu/Desktop/playwrightautomation/page/login.js",
-                    "column": 21,
-                    "line": 14
-                  }
-                }
-              ],
-              "status": "unexpected"
-            }
-          ],
-          "id": "55f2c691391bae3c7ae8-e3f269a4041c090f5050",
-          "file": "loginwithpoc.spec.js",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "pob",
-          "ok": false,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 8,
-                  "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 28288,
-                  "error": {
-                    "message": "TypeError: this.page.addtocart is not a function",
-                    "stack": "TypeError: this.page.addtocart is not a function\n    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:26:25)\n    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5",
-                    "location": {
-                      "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                      "column": 25,
-                      "line": 26
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../page/home.js:26\n\n\u001b[0m \u001b[90m 24 |\u001b[39m             }\n \u001b[90m 25 |\u001b[39m         })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39maddtocart()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     }\n \u001b[90m 28 |\u001b[39m     \u001b[36masync\u001b[39m gotocart()\n \u001b[90m 29 |\u001b[39m     {\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                        "column": 25,
-                        "line": 26
-                      },
-                      "message": "TypeError: this.page.addtocart is not a function\n\n\u001b[90m   at \u001b[39m../page/home.js:26\n\n\u001b[0m \u001b[90m 24 |\u001b[39m             }\n \u001b[90m 25 |\u001b[39m         })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39maddtocart()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     }\n \u001b[90m 28 |\u001b[39m     \u001b[36masync\u001b[39m gotocart()\n \u001b[90m 29 |\u001b[39m     {\u001b[0m\n\u001b[2m    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:26:25)\u001b[22m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:11.356Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-webkit/test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-webkit/video.webm"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                    "column": 25,
-                    "line": 26
-                  }
-                },
-                {
-                  "workerIndex": 11,
-                  "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 40487,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/basu/Desktop/playwrightautomation/page/home.js",
-                        "column": 27,
-                        "line": 16
-                      },
-                      "message": "Error: elementHandle.click: Test timeout of 40000ms exceeded.\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    61 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" role=\"dialog\" id=\"logInModal\" class=\"modal fade show\" aria-labelledby=\"logInModalLabel\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../page/home.js:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m             \u001b[36mif\u001b[39m (productName \u001b[33m===\u001b[39m \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mtextContent()) \n \u001b[90m 15 |\u001b[39m             {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m                 \u001b[36mawait\u001b[39m pro\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m                 \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m  \u001b[90m// Exit the loop after the first match is clicked.\u001b[39m\n \u001b[90m 18 |\u001b[39m             }\n \u001b[90m 19 |\u001b[39m         }\u001b[0m\n\u001b[2m    at Homepage.allproducts (/Users/basu/Desktop/playwrightautomation/page/home.js:16:27)\u001b[22m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/loginwithpoc.spec.js:11:5\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 1,
-                  "startTime": "2025-04-04T06:36:40.159Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-webkit-retry1/video.webm"
-                    },
-                    {
-                      "name": "_prompt-1",
-                      "contentType": "text/markdown",
-                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBwb2IKLSBMb2NhdGlvbjogL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi90ZXN0cy9sb2dpbndpdGhwb2Muc3BlYy5qczo0OjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBlbGVtZW50SGFuZGxlLmNsaWNrOiBUZXN0IHRpbWVvdXQgb2YgNDAwMDBtcyBleGNlZWRlZC4KQ2FsbCBsb2c6CiAgLSBhdHRlbXB0aW5nIGNsaWNrIGFjdGlvbgogICAgMiDDlyB3YWl0aW5nIGZvciBlbGVtZW50IHRvIGJlIHZpc2libGUsIGVuYWJsZWQgYW5kIHN0YWJsZQogICAgICAtIGVsZW1lbnQgaXMgdmlzaWJsZSwgZW5hYmxlZCBhbmQgc3RhYmxlCiAgICAgIC0gc2Nyb2xsaW5nIGludG8gdmlldyBpZiBuZWVkZWQKICAgICAgLSBkb25lIHNjcm9sbGluZwogICAgICAtIDxkaXYgdGFiaW5kZXg9Ii0xIiByb2xlPSJkaWFsb2ciIGlkPSJsb2dJbk1vZGFsIiBjbGFzcz0ibW9kYWwgZmFkZSBzaG93IiBhcmlhLWxhYmVsbGVkYnk9ImxvZ0luTW9kYWxMYWJlbCI+4oCmPC9kaXY+IGludGVyY2VwdHMgcG9pbnRlciBldmVudHMKICAgIC0gcmV0cnlpbmcgY2xpY2sgYWN0aW9uCiAgICAtIHdhaXRpbmcgMjBtcwogICAgMiDDlyB3YWl0aW5nIGZvciBlbGVtZW50IHRvIGJlIHZpc2libGUsIGVuYWJsZWQgYW5kIHN0YWJsZQogICAgICAtIGVsZW1lbnQgaXMgdmlzaWJsZSwgZW5hYmxlZCBhbmQgc3RhYmxlCiAgICAgIC0gc2Nyb2xsaW5nIGludG8gdmlldyBpZiBuZWVkZWQKICAgICAgLSBkb25lIHNjcm9sbGluZwogICAgICAtIDxkaXYgdGFiaW5kZXg9Ii0xIiByb2xlPSJkaWFsb2ciIGlkPSJsb2dJbk1vZGFsIiBjbGFzcz0ibW9kYWwgZmFkZSBzaG93IiBhcmlhLWxhYmVsbGVkYnk9ImxvZ0luTW9kYWxMYWJlbCI+4oCmPC9kaXY+IGludGVyY2VwdHMgcG9pbnRlciBldmVudHMKICAgIC0gcmV0cnlpbmcgY2xpY2sgYWN0aW9uCiAgICAgIC0gd2FpdGluZyAxMDBtcwogICAgNjEgw5cgd2FpdGluZyBmb3IgZWxlbWVudCB0byBiZSB2aXNpYmxlLCBlbmFibGVkIGFuZCBzdGFibGUKICAgICAgIC0gZWxlbWVudCBpcyB2aXNpYmxlLCBlbmFibGVkIGFuZCBzdGFibGUKICAgICAgIC0gc2Nyb2xsaW5nIGludG8gdmlldyBpZiBuZWVkZWQKICAgICAgIC0gZG9uZSBzY3JvbGxpbmcKICAgICAgIC0gPGRpdiB0YWJpbmRleD0iLTEiIHJvbGU9ImRpYWxvZyIgaWQ9ImxvZ0luTW9kYWwiIGNsYXNzPSJtb2RhbCBmYWRlIHNob3ciIGFyaWEtbGFiZWxsZWRieT0ibG9nSW5Nb2RhbExhYmVsIj7igKY8L2Rpdj4gaW50ZXJjZXB0cyBwb2ludGVyIGV2ZW50cwogICAgIC0gcmV0cnlpbmcgY2xpY2sgYWN0aW9uCiAgICAgICAtIHdhaXRpbmcgNTAwbXMKCiAgICBhdCBIb21lcGFnZS5hbGxwcm9kdWN0cyAoL1VzZXJzL2Jhc3UvRGVza3RvcC9wbGF5d3JpZ2h0YXV0b21hdGlvbi9wYWdlL2hvbWUuanM6MTY6MjcpCiAgICBhdCAvVXNlcnMvYmFzdS9EZXNrdG9wL3BsYXl3cmlnaHRhdXRvbWF0aW9uL3Rlc3RzL2xvZ2lud2l0aHBvYy5zcGVjLmpzOjExOjUKYGBgCgojIFBhZ2Ugc25hcHNob3QKCmBgYHlhbWwKLSBkaWFsb2cgIkxvZyBpbiI6CiAgLSBkb2N1bWVudDoKICAgIC0gaGVhZGluZyAiTG9nIGluIiBbbGV2ZWw9NV0KICAgIC0gYnV0dG9uICJDbG9zZSIKICAgIC0gdGV4dDogIlVzZXJuYW1lOiIKICAgIC0gdGV4dGJveDogcGF2YW5sCiAgICAtIHRleHQ6ICJQYXNzd29yZDoiCiAgICAtIHRleHRib3g6IHRlc3RAMTIzCiAgICAtIGJ1dHRvbiAiQ2xvc2UiCiAgICAtIGJ1dHRvbiAiTG9nIGluIgotIG5hdmlnYXRpb246CiAgLSBsaW5rICJQUk9EVUNUIFNUT1JFIjoKICAgIC0gaW1nCiAgICAtIHRleHQ6IFBST0RVQ1QgU1RPUkUKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkhvbWUgKGN1cnJlbnQpIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDb250YWN0IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJBYm91dCB1cyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ2FydCIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiTG9nIGluIgogICAgLSBsaXN0aXRlbQogICAgLSBsaXN0aXRlbQogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaWduIHVwIgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW0KICAgIC0gbGlzdGl0ZW0KICAgIC0gbGlzdGl0ZW0KICAtIGltZyAiU2Vjb25kIHNsaWRlIgogIC0gYnV0dG9uICJQcmV2aW91cyIKICAtIGJ1dHRvbiAiTmV4dCIKLSBsaW5rICJDQVRFR09SSUVTIgotIGxpbmsgIlBob25lcyIKLSBsaW5rICJMYXB0b3BzIgotIGxpbmsgIk1vbml0b3JzIgotIGxpbmsKLSBoZWFkaW5nICJTYW1zdW5nIGdhbGF4eSBzNiIgW2xldmVsPTRdOgogIC0gbGluayAiU2Ftc3VuZyBnYWxheHkgczYiCi0gaGVhZGluZyAiJDM2MCIgW2xldmVsPTVdCi0gcGFyYWdyYXBoOiBUaGUgU2Ftc3VuZyBHYWxheHkgUzYgaXMgcG93ZXJlZCBieSAxLjVHSHogb2N0YS1jb3JlIFNhbXN1bmcgRXh5bm9zIDc0MjAgcHJvY2Vzc29yIGFuZCBpdCBjb21lcyB3aXRoIDNHQiBvZiBSQU0uIFRoZSBwaG9uZSBwYWNrcyAzMkdCIG9mIGludGVybmFsIHN0b3JhZ2UgY2Fubm90IGJlIGV4cGFuZGVkLgotIGxpbmsKLSBoZWFkaW5nICJOb2tpYSBsdW1pYSAxNTIwIiBbbGV2ZWw9NF06CiAgLSBsaW5rICJOb2tpYSBsdW1pYSAxNTIwIgotIGhlYWRpbmcgIiQ4MjAiIFtsZXZlbD01XQotIHBhcmFncmFwaDogVGhlIE5va2lhIEx1bWlhIDE1MjAgaXMgcG93ZXJlZCBieSAyLjJHSHogcXVhZC1jb3JlIFF1YWxjb21tIFNuYXBkcmFnb24gODAwIHByb2Nlc3NvciBhbmQgaXQgY29tZXMgd2l0aCAyR0Igb2YgUkFNLgotIGxpbmsKLSBoZWFkaW5nICJOZXh1cyA2IiBbbGV2ZWw9NF06CiAgLSBsaW5rICJOZXh1cyA2IgotIGhlYWRpbmcgIiQ2NTAiIFtsZXZlbD01XQotIHBhcmFncmFwaDogVGhlIE1vdG9yb2xhIEdvb2dsZSBOZXh1cyA2IGlzIHBvd2VyZWQgYnkgMi43R0h6IHF1YWQtY29yZSBRdWFsY29tbSBTbmFwZHJhZ29uIDgwNSBwcm9jZXNzb3IgYW5kIGl0IGNvbWVzIHdpdGggM0dCIG9mIFJBTS4KLSBsaW5rCi0gaGVhZGluZyAiU2Ftc3VuZyBnYWxheHkgczciIFtsZXZlbD00XToKICAtIGxpbmsgIlNhbXN1bmcgZ2FsYXh5IHM3IgotIGhlYWRpbmcgIiQ4MDAiIFtsZXZlbD01XQotIHBhcmFncmFwaDogVGhlIFNhbXN1bmcgR2FsYXh5IFM3IGlzIHBvd2VyZWQgYnkgMS42R0h6IG9jdGEtY29yZSBpdCBjb21lcyB3aXRoIDRHQiBvZiBSQU0uIFRoZSBwaG9uZSBwYWNrcyAzMkdCIG9mIGludGVybmFsIHN0b3JhZ2UgdGhhdCBjYW4gYmUgZXhwYW5kZWQgdXAgdG8gMjAwR0IgdmlhIGEgbWljcm9TRCBjYXJkLgotIGxpbmsKLSBoZWFkaW5nICJJcGhvbmUgNiAzMmdiIiBbbGV2ZWw9NF06CiAgLSBsaW5rICJJcGhvbmUgNiAzMmdiIgotIGhlYWRpbmcgIiQ3OTAiIFtsZXZlbD01XQotIHBhcmFncmFwaDogSXQgY29tZXMgd2l0aCAxR0Igb2YgUkFNLiBUaGUgcGhvbmUgcGFja3MgMTZHQiBvZiBpbnRlcm5hbCBzdG9yYWdlIGNhbm5vdCBiZSBleHBhbmRlZC4gQXMgZmFyIGFzIHRoZSBjYW1lcmFzIGFyZSBjb25jZXJuZWQsIHRoZSBBcHBsZSBpUGhvbmUgNiBwYWNrcyBhIDgtbWVnYXBpeGVsIHByaW1hcnkgY2FtZXJhIG9uIHRoZSByZWFyIGFuZCBhIDEuMi1tZWdhcGl4ZWwgZnJvbnQgc2hvb3RlciBmb3Igc2VsZmllcy4KLSBsaW5rCi0gaGVhZGluZyAiU29ueSB4cGVyaWEgejUiIFtsZXZlbD00XToKICAtIGxpbmsgIlNvbnkgeHBlcmlhIHo1IgotIGhlYWRpbmcgIiQzMjAiIFtsZXZlbD01XQotIHBhcmFncmFwaDogU29ueSBYcGVyaWEgWjUgRHVhbCBzbWFydHBob25lIHdhcyBsYXVuY2hlZCBpbiBTZXB0ZW1iZXIgMjAxNS4gVGhlIHBob25lIGNvbWVzIHdpdGggYSA1LjIwLWluY2ggdG91Y2hzY3JlZW4gZGlzcGxheSB3aXRoIGEgcmVzb2x1dGlvbiBvZiAxMDgwIHBpeGVscyBieSAxOTIwIHBpeGVscyBhdCBhIFBQSSBvZiA0MjQgcGl4ZWxzIHBlciBpbmNoLgotIGxpbmsKLSBoZWFkaW5nICJIVEMgT25lIE05IiBbbGV2ZWw9NF06CiAgLSBsaW5rICJIVEMgT25lIE05IgotIGhlYWRpbmcgIiQ3MDAiIFtsZXZlbD01XQotIHBhcmFncmFwaDogVGhlIEhUQyBPbmUgTTkgaXMgcG93ZXJlZCBieSAxLjVHSHogb2N0YS1jb3JlIFF1YWxjb21tIFNuYXBkcmFnb24gODEwIHByb2Nlc3NvciBhbmQgaXQgY29tZXMgd2l0aCAzR0Igb2YgUkFNLiBUaGUgcGhvbmUgcGFja3MgMzJHQiBvZiBpbnRlcm5hbCBzdG9yYWdlIHRoYXQgY2FuIGJlIGV4cGFuZGVkIHVwIHRvIDEyOEdCIHZpYSBhIG1pY3JvU0QgY2FyZC4KLSBsaW5rCi0gaGVhZGluZyAiU29ueSB2YWlvIGk1IiBbbGV2ZWw9NF06CiAgLSBsaW5rICJTb255IHZhaW8gaTUiCi0gaGVhZGluZyAiJDc5MCIgW2xldmVsPTVdCi0gcGFyYWdyYXBoOiBTb255IGlzIHNvIGNvbmZpZGVudCB0aGF0IHRoZSBWQUlPIFMgaXMgYSBzdXBlcmlvciB1bHRyYXBvcnRhYmxlIGxhcHRvcCB0aGF0IHRoZSBjb21wYW55IHByb3VkbHkgY29tcGFyZXMgdGhlIG5vdGVib29rIHRvIEFwcGxlJ3MgMTMtaW5jaCBNYWNCb29rIFByby4gQW5kIGluIGEgbG90IG9mIHdheXMgdGhpcyBub3RlYm9vayBpcyBiZXR0ZXIsIHRoYW5rcyB0byBhIGxpZ2h0ZXIgd2VpZ2h0LgotIGxpbmsKLSBoZWFkaW5nICJTb255IHZhaW8gaTciIFtsZXZlbD00XToKICAtIGxpbmsgIlNvbnkgdmFpbyBpNyIKLSBoZWFkaW5nICIkNzkwIiBbbGV2ZWw9NV0KLSBwYXJhZ3JhcGg6IFJFVklFVyBTb255IGlzIHNvIGNvbmZpZGVudCB0aGF0IHRoZSBWQUlPIFMgaXMgYSBzdXBlcmlvciB1bHRyYXBvcnRhYmxlIGxhcHRvcCB0aGF0IHRoZSBjb21wYW55IHByb3VkbHkgY29tcGFyZXMgdGhlIG5vdGVib29rIHRvIEFwcGxlJ3MgMTMtaW5jaCBNYWNCb29rIFByby4gQW5kIGluIGEgbG90IG9mIHdheXMgdGhpcyBub3RlYm9vayBpcyBiZXR0ZXIsIHRoYW5rcyB0byBhIGxpZ2h0ZXIgd2VpZ2h0LCBoaWdoZXItcmVzb2x1dGlvbiBkaXNwbGF5LCBtb3JlIHN0b3JhZ2Ugc3BhY2UsIGFuZCBhIEJsdS1yYXkgZHJpdmUuCi0gbGlzdDoKICAtIGxpc3RpdGVtOgogICAgLSBidXR0b24gIlByZXZpb3VzIgogIC0gbGlzdGl0ZW06CiAgICAtIGJ1dHRvbiAiTmV4dCIKLSBoZWFkaW5nICJBYm91dCBVcyIgW2xldmVsPTRdCi0gcGFyYWdyYXBoOiBXZSBiZWxpZXZlIHBlcmZvcm1hbmNlIG5lZWRzIHRvIGJlIHZhbGlkYXRlZCBhdCBldmVyeSBzdGFnZSBvZiB0aGUgc29mdHdhcmUgZGV2ZWxvcG1lbnQgY3ljbGUgYW5kIG91ciBvcGVuIHNvdXJjZSBjb21wYXRpYmxlLCBtYXNzaXZlbHkgc2NhbGFibGUgcGxhdGZvcm0gbWFrZXMgdGhhdCBhIHJlYWxpdHkuCi0gaGVhZGluZyAiR2V0IGluIFRvdWNoIiBbbGV2ZWw9NF0KLSBwYXJhZ3JhcGg6ICJBZGRyZXNzOiAyMzkwIEVsIENhbWlubyBSZWFsIgotIHBhcmFncmFwaDogIlBob25lOiArNDQwIDEyMzQ1NiIKLSBwYXJhZ3JhcGg6ICJFbWFpbDogZGVtb0BibGF6ZW1ldGVyLmNvbSIKLSBoZWFkaW5nICJQUk9EVUNUIFNUT1JFIiBbbGV2ZWw9NF06CiAgLSBpbWcKICAtIHRleHQ6IFBST0RVQ1QgU1RPUkUKLSBjb250ZW50aW5mbzoKICAtIHBhcmFncmFwaDogQ29weXJpZ2h0IMKpIFByb2R1Y3QgU3RvcmUgMjAxNwpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBleHBvcnRzLkhvbWVwYWdlPWNsYXNzIEhvbWVwYWdlCiAgIDIgfCB7CiAgIDMgfCAgICAgY29uc3RydWN0b3IocGFnZSkKICAgNCB8ICAgICB7CiAgIDUgfCAgICAgICAgICB0aGlzLnBhZ2U9cGFnZTsKICAgNiB8ICAgICAgICAgIHRoaXMucHJvZHVjdGxpc3Q9Ii8vZGl2W0BpZD0ndGJvZHlpZCddL2Rpdi9kaXYvZGl2L2g0L2EiOwogICA3IHwgICAgICAgICAgdGhpcy5hZGR0b2NhcnQ9Ii8vZGl2W0BpZD0ndGJvZHlpZCddL2Rpdi9kaXYvZGl2L2g0L2EiOwogICA4IHwgICAgICAgICAgdGhpcy5jYXJ0cGFnZT0iI2NhcnR1ciI7CiAgIDkgfCAgICAgfQogIDEwIHwgICAgIGFzeW5jIGFsbHByb2R1Y3RzKHByb2R1Y3ROYW1lKSB7CiAgMTEgfCAgICAgICAgIGNvbnN0IHBsaXN0ID0gYXdhaXQgdGhpcy5wYWdlLiQkKHRoaXMucHJvZHVjdGxpc3QpOwogIDEyIHwgICAgICAgICBmb3IgKGNvbnN0IHBybyBvZiBwbGlzdCkgCiAgMTMgfCAgICAgICAgIHsKICAxNCB8ICAgICAgICAgICAgIGlmIChwcm9kdWN0TmFtZSA9PT0gYXdhaXQgcHJvLnRleHRDb250ZW50KCkpIAogIDE1IHwgICAgICAgICAgICAgewo+IDE2IHwgICAgICAgICAgICAgICAgIGF3YWl0IHByby5jbGljaygpOwogICAgIHwgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBlbGVtZW50SGFuZGxlLmNsaWNrOiBUZXN0IHRpbWVvdXQgb2YgNDAwMDBtcyBleGNlZWRlZC4KICAxNyB8ICAgICAgICAgICAgICAgICBicmVhazsgIC8vIEV4aXQgdGhlIGxvb3AgYWZ0ZXIgdGhlIGZpcnN0IG1hdGNoIGlzIGNsaWNrZWQuCiAgMTggfCAgICAgICAgICAgICB9CiAgMTkgfCAgICAgICAgIH0KICAyMCB8ICAgICAKICAyMSB8ICAgICAgICAgYXdhaXQgdGhpcy5wYWdlLm9uKCdkaWFsb2cnLCBhc3luYyBkaWFsb2cgPT4gewogIDIyIHwgICAgICAgICAgICAgaWYgKGRpYWxvZy5tZXNzYWdlKCkuaW5jbHVkZXMoJ2FkZGVkJykpIHsKICAyMyB8ICAgICAgICAgICAgICAgICBhd2FpdCBkaWFsb2cuYWNjZXB0KCk7CiAgMjQgfCAgICAgICAgICAgICB9CiAgMjUgfCAgICAgICAgIH0pOwogIDI2IHwgICAgICAgICBhd2FpdCB0aGlzLnBhZ2UuYWRkdG9jYXJ0KCkuY2xpY2soKTsKICAyNyB8ICAgICB9CiAgMjggfCAgICAgYXN5bmMgZ290b2NhcnQoKQogIDI5IHwgICAgIHsKICAzMCB8ICAgICAgICAgYXdhaXQgdGhpcy5wYWdlLmxvY2F0b3IodGhpcy5wYWdlLmNhcnRwYWdlKS5jbGljaygpOwogIDMxIHwgICAgIH0KICAzMiB8ICAgICAKICAzMyB8IH0KYGBg"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/loginwithpoc-pob-webkit-retry1/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "unexpected"
-            }
-          ],
-          "id": "55f2c691391bae3c7ae8-975a2d0ba96e918a3645",
-          "file": "loginwithpoc.spec.js",
-          "line": 4,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "mlinks.spec.js",
-      "file": "mlinks.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "auto sugestion",
-          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -1017,195 +225,60 @@
                 {
                   "workerIndex": 3,
                   "parallelIndex": 3,
-                  "status": "passed",
-                  "duration": 4270,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 3961,
+                  "error": {
+                    "message": "TypeError: page.fill(...).click is not a function",
+                    "stack": "TypeError: page.fill(...).click is not a function\n    at /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:24:53",
+                    "location": {
+                      "file": "/Users/basu/Desktop/playwrightautomation/tests/login.spec.js",
+                      "column": 53,
+                      "line": 24
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m test(\u001b[32m'login the aplication'\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.flipkart.com/'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@name='q'],'laptops'\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m })\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/basu/Desktop/playwrightautomation/tests/login.spec.js",
+                        "column": 53,
+                        "line": 24
+                      },
+                      "message": "TypeError: page.fill(...).click is not a function\n\n\u001b[0m \u001b[90m 22 |\u001b[39m test(\u001b[32m'login the aplication'\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.flipkart.com/'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@name='q'],'laptops'\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m })\u001b[0m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:24:53\u001b[22m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/basu/Desktop/playwrightautomation/tests/login.spec.js",
+                        "column": 16,
+                        "line": 24
+                      },
+                      "message": "Error: page.fill: value: expected string, got undefined\n\n\u001b[0m \u001b[90m 22 |\u001b[39m test(\u001b[32m'login the aplication'\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.flipkart.com/'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@name='q'],'laptops'\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m })\u001b[0m\n\u001b[2m    at /Users/basu/Desktop/playwrightautomation/tests/login.spec.js:24:16\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-04-04T06:35:38.998Z",
-                  "attachments": []
+                  "startTime": "2025-04-08T08:13:26.587Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/basu/Desktop/playwrightautomation/test-results/login-login-the-aplication-chromium/video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/basu/Desktop/playwrightautomation/tests/login.spec.js",
+                    "column": 53,
+                    "line": 24
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "id": "4df39672373ec4455821-da44547b412a06ff168b",
-          "file": "mlinks.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "auto sugestion",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5203,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:54.737Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "4df39672373ec4455821-f9e51f1fe1f4ee2442f6",
-          "file": "mlinks.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "auto sugestion",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 3868,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:13.838Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "4df39672373ec4455821-2f857ac43d02b3db083f",
-          "file": "mlinks.spec.js",
-          "line": 2,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "screenshot.spec.js",
-      "file": "screenshot.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "screenshot",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3146,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:40.556Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "b6aa675bc40ab83f8367-febbbe046695c07245c0",
-          "file": "screenshot.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "screenshot",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 3082,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:35:55.634Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "b6aa675bc40ab83f8367-06202e3508cc8f2ffeca",
-          "file": "screenshot.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "screenshot",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 6615,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-04-04T06:36:17.711Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "b6aa675bc40ab83f8367-8543978751c80b869bfc",
-          "file": "screenshot.spec.js",
-          "line": 2,
+          "id": "badc1754af1944f68b2b-39914a1938bb766a8bc1",
+          "file": "login.spec.js",
+          "line": 22,
           "column": 5
         }
       ]
@@ -1213,11 +286,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-04-04T06:35:26.899Z",
-    "duration": 114448.688,
-    "expected": 21,
+    "startTime": "2025-04-08T08:13:26.030Z",
+    "duration": 11543.255,
+    "expected": 3,
     "skipped": 0,
-    "unexpected": 3,
+    "unexpected": 1,
     "flaky": 0
   }
 }

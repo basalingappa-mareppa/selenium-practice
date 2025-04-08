@@ -19,3 +19,7 @@ test('dropdowntest',async({page})=>{
     //await page.click("//span[text()='Date']");
 })
 
+test('login the aplication',async({page})=>{
+    await page.goto('https://www.flipkart.com/');
+    await page.fill("//input[@name='q'],'laptops'").click();
+})
